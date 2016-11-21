@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:4.4.7
+FROM node:6.9
 WORKDIR /usr/src/app
 EXPOSE 3000
 ENV PORT 3000
