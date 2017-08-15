@@ -1,4 +1,4 @@
-FROM node:6.9
+FROM node:6-alpine
 WORKDIR /usr/src/app
 EXPOSE 3000
 ENV PORT 3000
